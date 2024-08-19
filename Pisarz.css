@@ -1,0 +1,376 @@
+body{
+    margin: 0;
+    background: rgba(222, 222, 222, 1);
+}
+
+nav{
+    border-bottom: black solid 1px;
+    align-items: center;
+}
+
+nav a{
+    height: 100px;
+    padding: 0 30px;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    font-family: Saira Condensed;
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 66.11px;
+    text-align: left;    
+}
+nav a:hover{
+    background-color: #6b6969;
+}
+nav:first-child{
+    margin-right: auto;
+}
+.text-btns-icons{
+    margin-top: 100px;
+}
+.title-name{
+    font-family: MonteCarlo;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 80px;
+    margin: 0;
+}
+.under-title-name{
+    font-family: Josefin Sans;
+    font-size: 32px;
+    font-weight: 200;
+    line-height: 32px;
+    text-align: left;
+    margin: 0;
+}
+.buttons{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+.btn1{
+    background-color: rgba(44, 44, 44, 1);
+    color: white;
+    text-decoration: none;
+    font-family: Varta;
+    padding: 15px 60px;
+    border-radius: 7px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.btn1:hover{
+    background-color: rgb(14, 14, 14);
+}
+.web-top{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 12% 50px 12%;
+}
+.app-icons{
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+}
+.jego-historia-zyciowa-paragraphs{
+    display: flex;
+    font-family: Josefin Sans;
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 42px;
+    text-align: left; 
+    gap: 50px;   
+}
+.jego-historia-zyciowa{
+    color: white;
+    background-image: url(Pisarz-imgs/Vector3.png);
+    padding: 50px 5% 20px 5%;
+    background-size: cover;
+    height: 70vh;
+    background-repeat: no-repeat;
+
+}
+.jego-historia-zyciowa-title{
+    font-family: Tinos;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55.2px;
+    text-align: center;
+}
+.history-text{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.text-arrow{
+    position: relative;
+    text-align: right;
+}
+.arrow1{
+    position: absolute; /* Absolutne pozycjonowanie */
+    right: 10px; /* Odległość od prawej krawędzi */
+    top: 50%; /* Centrowanie w pionie */
+    width: 15px; /* Szerokość hr */
+    height: 2px; /* Wysokość hr */
+    background-color: #ffffff; /* Kolor hr */
+    border: none; /* Brak obramowania */
+    transform: translateY(4px) translateX(33px) rotate(45deg); /* Obrót i centrowanie */
+}
+.arrow2{
+    width: 15px;
+    position: absolute; /* Absolutne pozycjonowanie */
+    right: 10px; /* Odległość od prawej krawędzi */
+    top: 50%; /* Centrowanie w pionie */
+    height: 2px;
+    border: none;
+    background-color: #ffffff;
+    transform: translateY(14px) translateX(33px) rotate(315deg); 
+}
+.arrow3{
+    width: 309px;
+    position: absolute; /* Absolutne pozycjonowanie */
+    right: 10px; /* Odległość od prawej krawędzi */
+    top: 50%; /* Centrowanie w pionie */
+    height: 2px;
+    border: none;
+    background-color: #ffffff;
+    transform: translateY(9px) translateX(30px); 
+}
+.text-over{
+    font-family: Josefin Sans;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 28px;  
+    margin: 0 0 30px 0;
+}
+ 
+    
+.books{
+    transform: translate(-150px, 400px);
+}
+.book-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 200px;
+}
+.book-container h3{
+    font-family: Roboto Slab;
+    font-size: 24px;
+    font-weight: 400;
+    transform: translate(-360px, 550px)
+}
+.book-container p{
+    font-family: Josefin Sans;
+    font-size: 30px;
+    font-weight: 300;
+    width: 694px;
+    transform: translateX(200px);
+}
+.book {
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.book1 {
+    top: 10%; /* Odległość od górnej krawędzi */
+    left: 10%;
+    transform: translate(0, 0) scale(2);
+    padding: 0;
+}
+
+.book2 {
+    top: 45%; /* Zwiększenie odległości między książkami */
+    left: 10%;
+    transform: translate(0, -50%) scale(2);
+}
+
+.book3 {
+    top: 43%; /* Pozycja środkowa książki */
+    left: 40%;
+    transform: translate(-50%, -50%) scale(4); /* Książka na środku jest od razu większa i wycentrowana */
+}
+.wywiady-title{
+    font-family: Tinos;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 73.59px;
+}
+.wywiady{
+    margin: 50px 10%;
+}
+.img-n-arrow-text{
+    position: relative;
+    text-align: center;
+}
+
+.wywiady-imgs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.text-under{
+    font-family: Josefin Sans;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 0;
+}
+.faq *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.accordion{
+    font-family: Sofia Sans;
+    font-size: 36px;
+    font-weight: 400;
+    width: 100%;
+    padding: 2rem 1.5rem;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.accordion i{
+    font-size: 1.2em;
+}
+.accordion1 i{
+    font-size: 1.2em;
+}
+.pannel{
+    padding: 0 2rem;
+    overflow: hidden;
+    display: none;
+}
+.pannel p{
+    font-family: Josefin Sans;
+    font-size: 38px;
+    font-weight: 300;
+    padding: 32px 24px;
+}
+.line{
+    width: auto;
+    border: rgba(0, 0, 0.2) 0.2px solid;
+}
+.wrapper h2{
+    font-family: Uchen;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+.wrapper{
+    max-width: 75%;
+    margin: auto;
+}
+.faq{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.accordion{
+    background-color: rgba(222, 222, 222, 1);
+    border-bottom: rgba(0, 0, 0.5) 2px solid;
+}
+.accordion1{
+    background-color: rgba(222, 222, 222, 1);
+    border-top: rgb(0, 0, 0) 4px solid;
+    border-bottom: rgba(0, 0, 0.5) 2px solid;
+}
+.footer-line{
+    border: solid black 1px;
+    margin-bottom: 250px;
+    margin-top: 100px;
+}
+.block{
+    display: block;
+}
+@media (max-width: 1700px) {
+    .img-n-arrow-text img{
+        width: 502.5px;
+    }
+}
+@media(max-width: 1350px) {
+    .history-text{
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 60px;
+    }
+    .text-over{
+        margin-top: 15px;
+    }
+}
+@media (max-width: 1285px) {
+    .wywiady{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media (max-width: 1154px) {
+    .wywiady-title{
+        text-align: center;
+    }
+    .wywiady-imgs{
+    grid-template-columns: 1fr;
+   }
+}
+@media (max-width: 1225px) {
+    .main-img{
+        width: 537.75px;
+    }
+}
+@media (max-width: 1000px) {
+    .web-top{
+        display: block;
+        text-align: center;
+    }
+    .under-title-name{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .buttons{
+        justify-content: center;
+    }
+    .app-icons{
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 940px) {
+    .jego-historia-zyciowa-paragraphs{
+        display: block;
+    }
+    .jego-historia-zyciowa{
+        height: 100vh;
+    }
+    .text-over{
+         margin-top: 100px;
+    }
+    .img-n-arrow-text img{
+        width: 335px;
+    }
+}
+@media (max-width: 688px) {
+    .main-img{
+        width: 358.5px;
+    }
+    .app-icons{
+        gap: 40px;
+    }
+    .web-top{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media (max-width: 550px) {
+    .jego-historia-zyciowa{
+        height: 130vh;
+    }
+}
